@@ -39,6 +39,6 @@ startup-script
 
 ```bash
 #! /bin/bash
-sudo gcsfuse -o allow_other -o nonempty {GCSパケット名} /var/www/html/{マウントするディレクト}
+sudo gcsfuse -o allow_other -o nonempty {GCSバケット名} /var/www/html/{マウントするディレクト}
 ```
 
